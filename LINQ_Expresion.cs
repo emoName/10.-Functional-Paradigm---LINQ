@@ -71,15 +71,20 @@ namespace LINQ_Functional_Paradigm
 
             var list6 = list5.SelectMany(s => s.list);
 
+            // Deffred Execution 
+            // Colectia va afisa 6 elemente
+            list5.Add(list3);
 
 
             foreach ( var item in list6 )
             {
-               // var al = item.GetEnumerator();
+                // var al = item.GetEnumerator();
                 foreach ( var ii in item )
                 {
-                    Console.WriteLine(ii.id+"+"+ii.value);
+                    Console.WriteLine("----------------------------------");
+                    Console.WriteLine(ii.id + "+" + ii.value);
                 }
+                    Console.WriteLine("==================================");
             }
 
 
