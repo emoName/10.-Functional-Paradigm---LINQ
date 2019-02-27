@@ -9,8 +9,8 @@ namespace LINQ_Functional_Paradigm
     static class ExtensionMethods
     {
 
-
-      static  void Compare(this int a, int b)
+        //Treabue sa fie Public ca sa fie acesibil de oriunde
+     public static  void Compare(this int a, int b)
         {
             Console.WriteLine("a>b");
         }

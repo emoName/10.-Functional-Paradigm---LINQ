@@ -15,7 +15,9 @@ namespace LINQ_Functional_Paradigm
             LINQ_Expresion.Method();
 
 
+            2.Compare(8);
 
+            ExtensionMethods.Compare(2, 5);
 
 
 
