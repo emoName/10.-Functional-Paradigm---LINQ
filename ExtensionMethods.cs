@@ -10,7 +10,7 @@ namespace LINQ_Functional_Paradigm
     {
 
         //Treabue sa fie Public ca sa fie acesibil de oriunde
-     public static  void Compare(this int a, int b)
+        public static void Compare(this int a, int b)
         {
             Console.WriteLine("a>b");
         }

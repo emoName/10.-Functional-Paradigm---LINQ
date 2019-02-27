@@ -51,16 +51,16 @@ namespace LINQ_Functional_Paradigm
         public void FuncCompare(int a, int b, Func<int, int, bool> AGreterThanB)
         {
 
-            void Comp(int c , int d , Action<int,int> action)
+            void Comp(int c, int d, Action<int, int> action)
             {
 
             }
 
-            Comp(a, b,(int c,int d)=>
-                                      {
-                                          Console.WriteLine(false);
+            Comp(a, b, (int c, int d) =>
+                                       {
+                                           Console.WriteLine(false);
 
-                                      }
+                                       }
             );
             Console.WriteLine(AGreterThanB(a, b));
         }
