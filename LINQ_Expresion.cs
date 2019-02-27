@@ -49,16 +49,49 @@ namespace LINQ_Functional_Paradigm
 
 
 
+            var list3 = new
+            {
+                list = new[]
+                {
+                    list1,
+                    list1
+                }
+            };
+            var list4 = new
+            {
+                list = new[]
+                {
+                    list1,
+                    list1
+                }
+            };
+
+            var list5 = new[] { list3, list4 }.ToList();
+
+
+            var list6 = list5.SelectMany(s => s.list);
+
+
+
+            foreach ( var item in list6 )
+            {
+               // var al = item.GetEnumerator();
+                foreach ( var ii in item )
+                {
+                    Console.WriteLine(ii.id+"+"+ii.value);
+                }
+            }
+
+
+            Console.ReadLine();
+            //  var list3 = list.OfType<a.GetType()  >();
+
 
 
             // list2 = 
             var i = list2.GetEnumerator().Current;
 
-
             IEnumerator list21 = list2.GetEnumerator();
-
-
-
 
             foreach ( var item in list1 )
             {
