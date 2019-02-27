@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace LINQ_Functional_Paradigm
 {
-    class LINQ_Expresion 
+    class LINQ_Expresion
     {
         static public void Method()
         {
@@ -44,21 +44,21 @@ namespace LINQ_Functional_Paradigm
 
             var list2 = from l in list
                         where l.id <= 3 & l.name == "aaaaaa"
-                        select  l.id
+                        select l.id
                         ;
 
-            
 
 
 
-           // list2 = 
-          var i=      list2.GetEnumerator().Current;
+
+            // list2 = 
+            var i = list2.GetEnumerator().Current;
 
 
-            IEnumerator list21 =  list2.GetEnumerator();
-   
-          
-            
+            IEnumerator list21 = list2.GetEnumerator();
+
+
+
 
             foreach ( var item in list1 )
             {
@@ -69,7 +69,7 @@ namespace LINQ_Functional_Paradigm
             {
                 Console.WriteLine(item);
 
-             
+
             }
 
             Console.WriteLine("-----------------------------");
@@ -84,13 +84,13 @@ namespace LINQ_Functional_Paradigm
 
 
 
-           
+
 
 
 
 
         }
 
-       
+
     }
 }
