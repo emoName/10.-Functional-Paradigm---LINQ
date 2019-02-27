@@ -5,9 +5,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ConsoleApp1
+namespace LINQ_Functional_Paradigm
 {
-    class LINQ_Expresion
+    class LINQ_Expresion 
     {
         static public void Method()
         {
@@ -47,16 +47,16 @@ namespace ConsoleApp1
                         select  l.id
                         ;
 
+            
 
 
 
-
-            list2 = list2.GetEnumerator();
+           // list2 = 
+          var i=      list2.GetEnumerator().Current;
 
 
             IEnumerator list21 =  list2.GetEnumerator();
-            //int i = 0;
-            //Console.WriteLine($" {list2} ");
+   
           
             
 
@@ -82,12 +82,15 @@ namespace ConsoleApp1
 
 
 
+
+
+           
+
+
+
+
         }
 
-
-
-
-
-
+       
     }
 }
