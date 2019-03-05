@@ -66,15 +66,5 @@ namespace LINQ_Functional_Paradigm
         }
 
 
-
-
-
-
-
-
-
-
-
-
     }
 }

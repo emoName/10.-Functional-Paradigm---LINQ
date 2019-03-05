@@ -84,7 +84,7 @@ namespace LINQ_Functional_Paradigm
                     Console.WriteLine("----------------------------------");
                     Console.WriteLine(ii.id + "+" + ii.value);
                 }
-                    Console.WriteLine("==================================");
+                Console.WriteLine("==================================");
             }
 
 
@@ -117,15 +117,6 @@ namespace LINQ_Functional_Paradigm
             {
                 Console.WriteLine(list21.Current);
             }
-
-
-
-
-
-
-
-
-
 
         }
 
